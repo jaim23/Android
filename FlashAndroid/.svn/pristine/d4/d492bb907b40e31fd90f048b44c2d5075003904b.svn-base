@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android" 
+        android:layout_width="fill_parent" 
+    android:layout_height="fill_parent"
+    android:scrollbars="vertical"
+    android:background="@color/fondo"
+    >
+
+<LinearLayout    
+	    android:orientation="vertical"
+	    android:layout_width="wrap_content" 
+		android:layout_height="wrap_content" 
+		android:background="#FEEFEF"
+		android:gravity="center">
+	
+    			<TextView android:id="@+id/LblGeneral" 
+			        android:layout_width="match_parent"
+			        android:layout_height="44dp"
+			        android:gravity="center"
+			        android:text="@string/NoticiasBaloncesto"
+			        android:textColor="#FD2526"
+			        android:textSize="20sp"
+			        android:shadowColor="#BB000000"
+   					android:shadowRadius="2.75"
+			        android:textStyle="bold"
+			    /> 
+
+			<TextView
+			    android:id="@+id/LblTextoBaloncesto"
+			    android:layout_width="wrap_content" 
+			    android:layout_height="wrap_content" 
+			    android:textColor="#000000"
+			    android:text="@string/TextoBaloncesto" />
+			
+			<ImageView
+			    android:id="@+id/imageView4"
+			    android:layout_width="wrap_content"
+			    android:layout_height="match_parent"
+			    android:layout_marginTop="35dp"
+			    android:background="@color/fondo"
+			    android:contentDescription="@string/FotoDKV"
+			    android:src="@drawable/baloncesto" />
+			
+			<LinearLayout
+				android:layout_width="280dp"
+				android:layout_height="1dp"
+				android:background="#FD2526"
+				android:layout_marginTop="20dp"
+				android:orientation="horizontal"
+					/>
+
+</LinearLayout>
+	</ScrollView>

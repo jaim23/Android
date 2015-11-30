@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FEEFEF"
+    android:orientation="vertical" >
+    
+
+    <TextView
+        android:id="@+id/Lblocaliza"
+        android:layout_width="fill_parent"
+        android:layout_height="44dp"
+        android:gravity="center"
+        android:text="@string/Localiza"
+        android:textColor="#FD2526"
+        android:textSize="20sp"
+        android:shadowColor="#BB000000"
+   		android:shadowRadius="2.75"
+        android:textStyle="bold" />
+    
+    <EditText
+        android:id="@+id/input"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#000000"
+        android:gravity="center"
+        android:textCursorDrawable="@color/rojo"
+        android:hint="@string/NombreApell"
+        android:layout_marginTop="10dp"
+        android:inputType="text"/>
+    
+    <Button 
+        android:id="@+id/botLocal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="@string/Localiza"/>
+    
+    <TextView
+        android:id="@+id/textPosicion"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="35dp"
+     	 />
+    
+
+</LinearLayout>

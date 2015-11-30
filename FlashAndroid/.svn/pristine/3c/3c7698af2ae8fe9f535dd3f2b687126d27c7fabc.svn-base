@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FEEFEF" >
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/TituloContacto"
+	    android:textColor="#FD2526"
+	    android:textStyle="bold"
+	    android:textSize="20sp" 
+	    android:shadowColor="#BB000000"
+   		android:shadowRadius="2.75"
+	    android:paddingTop="10dp"
+		android:gravity="center"/>
+
+    <EditText
+        android:id="@+id/editText2"
+        android:textCursorDrawable="@color/rojo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#000000"
+        android:hint="@string/NombreApell"
+        android:inputType="textPersonName"
+        android:paddingTop="20dp">
+
+        <requestFocus />
+    </EditText>
+
+    <EditText
+        android:id="@+id/editMensaje"
+        android:textCursorDrawable="@color/rojo"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.30"
+        android:textColor="#000000"
+        android:hint="@string/Mensaje"
+        android:inputType="textMultiLine" 
+        android:paddingBottom="100dp"
+        android:gravity="top"/>
+
+    <Button
+        android:id="@+id/buttonEnviar"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:text="@string/Enviar" />
+
+</TableLayout>

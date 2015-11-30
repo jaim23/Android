@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="wrap_content"  android:layout_height="wrap_content"
+    android:scrollbars="vertical"
+    >
+<LinearLayout
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:background="#FEEFEF"
+   	android:gravity="center"  >
+	
+    			<TextView android:id="@+id/LblGeneral" 
+			        android:layout_width="match_parent"
+			        android:layout_height="44dp"
+			        android:gravity="center"
+			        android:text="@string/NoticiasFutbol"
+			        android:textColor="#FD2526"
+			        android:textSize="20sp"
+			        android:shadowColor="#BB000000"
+   					android:shadowRadius="2.75"
+			        android:textStyle="bold"
+			        
+			    />
+
+			<TextView
+			    android:id="@+id/LblTextoFutboll"
+			    android:layout_width="wrap_content" 
+			    android:layout_height="wrap_content" 
+			    android:textColor="#000000"
+			    android:text="@string/TextoFutbol" 
+			
+			    />
+			
+			<ImageView
+			    android:id="@+id/imageViewF"
+			    android:layout_width="wrap_content"
+			    android:layout_height="wrap_content"
+			    android:layout_marginTop="20dp"
+			    android:contentDescription="@string/FotoFutbol"
+			    android:src="@drawable/filipinas"
+			     />
+			
+			<LinearLayout
+				android:layout_width="280dp"
+				android:layout_height="1dp"
+				android:background="#FD2526"
+				android:layout_marginTop="20dp"
+				android:orientation="horizontal"
+					/>
+
+</LinearLayout>
+	</ScrollView>

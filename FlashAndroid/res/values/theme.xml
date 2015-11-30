@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    
+   <color name="rojo">#FD2526</color>
+      <color name="amarillo">#FFFF00</color>
+   
+    <style name="MiTema">
+         <item name="android:windowBackground">@color/rojo</item>
+         <item name="android:background">@color/rojo</item>
+         <item name="android:textColor">@color/amarillo</item>
+     
+    </style>
+     
+
+
+    
+</resources>

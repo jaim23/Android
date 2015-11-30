@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">App</string>
+    <string name="action_settings">Settings</string>
+    <string name="Boton1">Notificacion</string>
+    <string name="Boton2">GetJson</string>
+    <string name="Boton3">Bienvenida</string>
+    <string name="Vid">VideoClub</string>
+    <string name="Opcion1">O1</string>
+    <string name="Opcion2">O2</string>
+    <string name="title_activity_hola">Hola</string>
+    <string name="hello_world">Hello world!</string>
+
+</resources>

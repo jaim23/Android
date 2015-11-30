@@ -1,0 +1,13 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+   <item android:id="@+id/MnuCont" 
+		android:title="@string/Contacto"
+		android:icon="@drawable/ic_contacto"
+		android:showAsAction="always"></item>
+   
+   	<item android:id="@+id/MnuAviso" 
+		android:title="@string/Aviso"
+		android:icon="@drawable/ic_aviso"
+		android:showAsAction="always"></item>
+
+</menu>
